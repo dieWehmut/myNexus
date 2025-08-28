@@ -52,7 +52,7 @@
         text
       >
         <el-icon><DocumentCopy /></el-icon>
-        <span class="btn-text">Copy</span>
+        <span class="btn-text">Copy Link</span>
       </el-button>
     </div>
   </div>
