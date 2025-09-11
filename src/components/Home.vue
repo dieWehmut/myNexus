@@ -94,12 +94,30 @@ const games = ref([
       },
     ],
   },
+  {
+    name: "SugisarishiKage",
+    repoUrl: "https://github.com/dieWehmut/projectRelease/releases/tag/SugisarishiKage",
+    versions: [
+      {
+        version: "v1.0",
+        date: "2025-09-11",
+        log: "My first VN--Windows",
+        url: "https://github.com/dieWehmut/projectRelease/releases/download/SugisarishiKage/SugisarishiKage_win.7z",
+      },
+      {
+        version: "v1.0",
+        date: "2025-09-11",
+        log: "My first VN--Android",
+        url: "https://github.com/dieWehmut/projectRelease/releases/download/SugisarishiKage/SugisarishiKage_android.apk.1",
+      },
+    ],
+  },
 ]);
 
 // Apps data
 const apps = ref([
   {
-    name: "kotobahitomi",
+    name: "kotobahitomi_android",
     repoUrl: "https://github.com/dieWehmut/myFirstAIWebApp",
     versions: [
       {
@@ -107,6 +125,18 @@ const apps = ref([
         date: "2025-06-03",
         log: "First app release",
         url: "https://github.com/dieWehmut/projectRelease/releases/download/kotobahitomi/kotobahitomi.apk",
+      },
+    ],
+  },
+    {
+    name: "SugisarishiKage_android",
+    repoUrl: "https://github.com/dieWehmut/projectRelease/releases/tag/SugisarishiKage",
+    versions: [
+      {
+        version: "v1.0",
+        date: "2025-09-11",
+        log: "My first VN--Android",
+        url: "https://github.com/dieWehmut/projectRelease/releases/download/SugisarishiKage/SugisarishiKage_android.apk.1",
       },
     ],
   },
